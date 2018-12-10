@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Duckbutton from './duckbutton'
+import CounterButton from './CounterButton'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-          <p>Hi.</p>
-          <Duckbutton />
+          <h1>App</h1>
+          <CounterButton />
       </div>
     );
   }

@@ -1,7 +1,6 @@
 
 const state0 = {
-  ducks: [{name:'noducks'}],
-  loading: false
+  count: 0
 }
 
 export default state0
